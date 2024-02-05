@@ -16,7 +16,7 @@ const Page = () => {
           </div>
           <hr className="border-t border-gray-300 my-2" />
           <p className="text-left">
-   Меня зовут Тимофей
+   Меня зовут Тимофей Мусатов. Я начинающий Frontend разработчик
           </p> 
         </div>
       </div>
