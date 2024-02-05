@@ -11,7 +11,7 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                primary: '#FF9900'
+                primary: '#0c4a6e'
             },
             fontFamily: {
                 'SFMONO': ['SF Mono', 'sans-serif'],

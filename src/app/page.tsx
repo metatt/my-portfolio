@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Projects from "./components/projects";
 import ParticlesBackground from "./ParticlesBackground";
+import Skills from "./components/skills";
 const Page = () => {
   return (
     <div className="flex flex-col gap-8 mx-4 my-16 md:mx-0">
@@ -8,28 +9,23 @@ const Page = () => {
       <div className="flex flex-col-reverse gap-8 md:flex-row">
         <div className="flex flex-col gap-4">
           <h1 className="text-3xl font-bold">
-            Hello <span className="text-primary">World!</span>
+            Привет! &#128102;
           </h1>
           <div>
-            <span className="font-bold">Title placeholder |</span>{" "}
-            <span className="px-2 py-1 text-xs rounded-md text-white bg-primary/70 ">
-              <span>Open Source</span>
-            </span>
+     
           </div>
           <hr className="border-t border-gray-300 my-2" />
           <p className="text-left">
-            I'm a _________ who <b>loves to build </b> _________ and _________.
-            <br></br>
-            <br></br>
-            My interests include, but are not limited to _________ <b>and</b> _________.
+   Меня зовут Тимофей
           </p> 
         </div>
       </div>
       <hr className="border-t border-gray-300 my-2" />
+      <Skills />
       <Projects />
       <hr className="border-t border-gray-300 my-2" />
       <div className="flex flex-col gap-4">
-        <h2 className="font-sfmono text-2xl">Contact</h2>
+        <h2 className="font-sfmono text-2xl">Контакты</h2>
         <ul className="list-inside">
           <li>
             <a
@@ -56,11 +52,11 @@ const Page = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="t.me/keter_0"
               className="flex items-center gap-2 font-bold underline text-primary/70 hover:text-primary/100"
               style={{ zIndex: 99, position: "relative" }}
             >
-              t.me/username
+              t.me/keter_0
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -81,7 +77,7 @@ const Page = () => {
       </div>
       <hr className="border-t border-gray-300 my-2" />
       <h2 className="font-sfmono text-l">
-        {"@martintmv " + new Date().getFullYear()}
+        {"@metatt " + new Date().getFullYear()}
       </h2>
     </div>
   );
