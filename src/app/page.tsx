@@ -29,11 +29,11 @@ const Page = () => {
         <ul className="list-inside">
           <li>
             <a
-              href="#"
+              href="https://vk.com/timofej_m"
               className="flex items-center gap-2 font-bold underline text-primary/70 hover:text-primary/100"
               style={{ zIndex: 99, position: "relative" }}
             >
-              email
+              vk
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

@@ -9,31 +9,17 @@ const Projects: React.FC = () => {
 
   return (
     <>
-      <h2 className="font-sfmono text-2xl #475569">Work</h2>
+      <h2 className="font-sfmono text-2xl #475569">Мои проекты</h2>
       {showAlert && (
         <AlertBox
-          message="gh/metatt"
+          message="мой профиль"
           buttonText="GitHub"
           buttonLink="https://github.com/metatt/"
           onDismiss={dismissAlert}
         />
       )}
-      {showAlert && (
-        <AlertBox
-          message="re/username"
-          buttonText="Replicate"
-          buttonLink="#"
-          onDismiss={dismissAlert}
-        />
-      )}
-      {showAlert && (
-        <AlertBox
-          message="li/username"
-          buttonText="LinkedIn"
-          buttonLink="#"
-          onDismiss={dismissAlert}
-        />
-      )}
+ 
+
       <div className="flex flex-col gap-4">
         <ul className="list-inside"></ul>
       </div>
